@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    background-color: #2e3440;
+    color: #d8dee9;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Code Container */
+.code-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+pre {
+    background-color: #3b4252;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-x: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-height: 400px;
+}
+
+code {
+    font-size: 1.1em;
+    color: #88c0d0;
+    line-height: 1.5;
+    display: block;
+}
+
+/* Copy Button */
+.copy-button {
+    background-color: #5e81ac;
+    border: none;
+    color: #d8dee9;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.copy-button:hover {
+    background-color: #81a1c1;
+}
+
+/* Links */
+a {
+    color: #88c0d0;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Code List on Index Page */
+#code-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+#code-list li {
+    background-color: #3b4252;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#code-list li a {
+    color: #88c0d0;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+/* Copy Button */
+.copy-button {
+    background-color: #5e81ac;
+    border: none;
+    color: #d8dee9;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.copy-button:hover {
+    background-color: #81a1c1;
+}
